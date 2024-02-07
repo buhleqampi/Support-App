@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const CaseDetailPage = () => {
-//   return (
-//     <div>CaseDetailPage</div>
-//   )
-// }
+const CaseDetailPage = () => {
+  return (
+    <div>CaseDetailPage</div>
+  )
+}
 
-// export default CaseDetailPage
+export default CaseDetailPage

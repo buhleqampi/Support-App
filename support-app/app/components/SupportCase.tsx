@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const SupportCase = () => {
-//   return (
-//     <div>SupportCase</div>
-//   )
-// }
+const SupportCase = () => {
+  return (
+    <div>SupportCase</div>
+  )
+}
 
-// export default SupportCase
+export default SupportCase

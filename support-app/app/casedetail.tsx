@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const casedetail = () => {
-//   return (
-//     <div>casedetail</div>
-//   )
-// }
+const CaseDetail = () => {
+  return (
+    <div>casedetail</div>
+  )
+}
 
-// export default casedetail
+export default CaseDetail
