@@ -38,4 +38,3 @@ const FluentNavbar: React.FC = () => {
   );
 };
 
-export default FluentNavbar;
