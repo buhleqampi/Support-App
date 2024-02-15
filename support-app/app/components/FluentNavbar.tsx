@@ -1,13 +1,13 @@
-// components/FluentNavbar.tsx
 
 import { INavLink, INavStyles, Nav } from '@fluentui/react';
 
 import { useRouter } from 'next/router';
 
 const navLinks: INavLink[] = [
-  { key: 'home', name: 'Home', url: '/', icon: 'Home' },
-  { key: 'about', name: 'About', url: '/about', icon: 'Info' },
-  // Add more links as needed
+  { key: 'login', name: 'Login', url: '/'},
+  { key: 'dashboard', name: 'Dashboard', url: '/dashboard' },
+  { key: 'casedetail', name: 'Casedetail', url: '/casedetial' },
+  { key: 'supportcase', name: 'SupportCase', url: '/supportcase' },
 ];
 
 const navStyles: Partial<INavStyles> = {
@@ -37,4 +37,3 @@ const FluentNavbar: React.FC = () => {
     />
   );
 };
-
